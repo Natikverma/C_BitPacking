@@ -19,7 +19,7 @@ union EXAMPLE_REGISTER {
 };
 
 int main() {
-    union EXAMPLE_REGISTER reg;
+    volatile union EXAMPLE_REGISTER reg;
 
     // Example usage: Set the register to PARTY_MODE
     reg.hw = 0; // Clear all bits
